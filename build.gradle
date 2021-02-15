@@ -35,9 +35,8 @@ repositories {
 
 dependencies {
     compileOnly 'org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT'
-    compileOnly 'LibsDisguises:LibsDisguises:10.0.24'
-    implementation 'com.github.hazae41:mc-kutils:3.3.2'
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    compile 'com.github.hazae41:mc-kutils:3.3.2'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 }
 
 processResources {
