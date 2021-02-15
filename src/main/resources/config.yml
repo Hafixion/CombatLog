@@ -1,0 +1,9 @@
+# In seconds, the amount of time a player is tagged for after they get hit by another player.
+# Integer values **ONLY**
+delay: 10
+
+# Clears in-combat null objects and players each minute, useful. (DEBUG ONLY)
+# Boolean values **ONLY**
+trust-garbage-collection: true
+
+# Cheers from Haf

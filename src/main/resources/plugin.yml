@@ -1,0 +1,20 @@
+name: CombatLog
+version: @version@
+main: com.hafixion.combatlog.CombatLogMain
+api-version: 1.16
+
+permissions:
+  combatlog.exempt:
+    description: Players with this permission are exempt from being detected for combat log.
+    default: op
+
+  combatlog.log:
+    description: Have the ability to check combatlog's data logs.
+    default: op
+
+commands:
+  combatlog:
+    description: Check a player's combatlogging history.
+    permission: combatlog.log
+    usage: /combatlog <player>
+    permission-message: §cYou don't have permission to use this command.
