@@ -51,4 +51,8 @@ compileKotlin {
     }
 }
 
-
+shadowJar {
+    archiveBaseName.set('CombatLog-' + version + '-shadow')
+    archiveClassifier.set('')
+    archiveVersion.set('')
+}

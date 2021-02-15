@@ -7,7 +7,7 @@ You can also check a player's history of combat logging using /combatlog <player
   
 ### Building & Compiling
 ***
-Easy enough to do, type `gradle build` into a terminal inside the directory.
+Easy enough to do, type `gradle shadowJar` into a terminal inside the directory, and use the shadowed jar.
 
 ### config.yml
 ***
